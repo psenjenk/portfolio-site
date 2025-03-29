@@ -1,0 +1,26 @@
+@import 'modules/base.css';
+@import 'modules/header.css';
+@import 'modules/hero.css';
+@import 'modules/services.css';
+@import 'modules/projects.css';
+@import 'modules/contact.css';
+@import 'modules/footer.css';
+
+/* Global Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply fade-in animation to sections */
+section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Additional sections can be imported here */ 
